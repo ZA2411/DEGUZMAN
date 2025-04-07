@@ -1,10 +1,10 @@
 // Base Class
-public class person {
+public class Person {
     private String name;
     private int id;
   
     // Constructor
-    public person(String name, int id) {
+    public Person(String name, int id) {
         this.name = name;
         this.id = id;
     }
@@ -30,8 +30,8 @@ public class person {
         System.out.println("Student Information:");
         student.displayinfo();
         System.out.println("\nTeacher Information:");
-        teacher.displayinfo();
+        teacher.displayInfo();
         System.out.println("\nStaff Information:");
-        staff.displayinfo();
+        staff.displayInfo();
     }
  }

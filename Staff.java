@@ -1,4 +1,4 @@
-public class Staff extends person {
+public class Staff extends Person {
     String department;
  
     // Call the constructor of the superclass (Person)
